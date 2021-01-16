@@ -3,7 +3,7 @@ const path = require("path")
 const bodyParser = require("body-parser")
 // const mongoose = require("mongoose")
 
-const helmet = require("helmet")
+// const helmet = require("helmet")
 
 
 // view engine setup
@@ -29,7 +29,7 @@ const app = express()
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(helmet())
+// app.use(helmet())
 // app.use(cookieParser())
 
 
