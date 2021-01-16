@@ -1,0 +1,33 @@
+{
+  "name": "growth",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "swagger": "swagger-jsdoc",
+    "client-install": "npm insall --prefix client",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client",
+    "herokustartscript": "NODE_ENV=staging node app"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "concurrently": "^5.3.0",
+    "helmet": "^4.2.0",
+    "custom-env": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodnessEzeokafor/thegivingtree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoodnessEzeokafor/thegivingtree/issues"
+  },
+  "homepage": "https://github.com/GoodnessEzeokafor/thegivingtree#readme"
+}
