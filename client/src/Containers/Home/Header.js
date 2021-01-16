@@ -2,8 +2,8 @@
 function Header() {
     return (
         <header>
-  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-      <nav class="uk-navbar-container" uk-navbar="dropbar: true;" 
+  <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+      <nav class="uk-navbar-container" data-uk-navbar="dropbar: true;" 
       style={{
         position: 'relative',
         zIndex: '980'

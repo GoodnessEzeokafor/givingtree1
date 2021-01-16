@@ -10,7 +10,7 @@ function Main() {
 		            <h4 class="uk-width-1-1@m uk-text-center">
 		                Want to get started with giftJAM?
 		            </h4>
-		            <div class="uk-child-width-1-3@m steps" uk-grid uk-height-match=".step">
+		            <div class="uk-child-width-1-3@m steps" data-uk-grid data-uk-height-match=".step">
 		                <div>
 		                    <div class="step uk-inline-clip uk-transition-toggle">
 		                        <img src="/assets/img/ico1.png" alt="" />
