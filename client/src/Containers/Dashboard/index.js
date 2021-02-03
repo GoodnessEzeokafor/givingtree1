@@ -30,7 +30,7 @@ return(
             </a>
           </div>
           <div>
-            <a href="#">
+            <a href="/">
               <img className="uk-margin-right" src="/assets/img/home.svg" alt="" />
               <span>Home</span>
             </a>
